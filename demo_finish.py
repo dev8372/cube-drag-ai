@@ -1,6 +1,4 @@
 """
-author:sangruikun
-date:2023,9,19
 步骤：
 1.opencv获取视频流
 2.在画面上画一个方块
@@ -138,4 +136,5 @@ while True:
           break  #cv2.waitkey(10)表示等待键盘输入的时间，本例中为10毫秒
      
 cap.release() #用于进程结束时释放上面cv2.VideoCapture()函数打开的摄像头资源，以便其他程序进程可以访问它
+
 cv2.destroyAllWindows() #该函数用于关闭所有通过cv2.imshow()函数打开的窗口，在该例子中关闭了一个名为"Virtual drag"的窗口。
